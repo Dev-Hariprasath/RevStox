@@ -1,0 +1,89 @@
+[2025-08-04T21:24:01.013026300] [PriceAnalysisService] calculateDailyVolatility called for ADANIPORTS
+[2025-08-04T21:24:43.076143500] [StockService] getHistoricalData called
+[2025-08-04T21:24:48.381307200] [StockService] getHistoricalData called
+[2025-08-04T21:53:57.775672800] [StockService] getHistoricalData called
+[2025-08-04T21:57:47.409975200] [PriceAnalysisService] calculateDailyVolatility called for COALINDIA
+[2025-08-04T22:14:41.674723700] [StockService] getHistoricalData called
+[2025-08-04T22:15:14.755735900] [PriceAnalysisService] calculateDailyPriceChange called for ADANIPORTS
+[2025-08-04T22:16:43.223480] [StockService] getHistoricalData called
+[2025-08-04T22:18:30.699438600] [StockService] fetchStockBySymbol called for symbol: COALINDIA
+[2025-08-04T22:19:37.504156400] [PriceAnalysisService] calculateDailyVolatility called for ADANIPORTS
+[2025-08-04T22:25:27.090898400] [PriceAnalysisService] calculateDailyVolatility called for ADANIPORTS
+[2025-08-04T22:26:58.906503] [PriceAnalysisService] calculateDailyVolatility called for ADANIPORTS
+[2025-08-04T22:33:13.626763600] [PriceAnalysisService] calculateDailyPriceChange called for package com.revstox.controller;
+[2025-08-04T22:34:58.719018800] [VolumeAnalysisService] calculateVWAP called for: ADANIPORTS
+[2025-08-04T22:35:17.162859600] [VolumeAnalysisService] calculateDailyTurnover called for: ADANIPORTS
+[2025-08-04T22:35:50.374644600] [VolumeAnalysisService] calculateDeliverableVolumePercentage called for: ADANIPORTS
+[2025-08-04T22:36:20.141502400] [VolumeAnalysisService] analyzeVolumeTrends called for: ADANIPORTS
+[2025-08-04T22:36:38.670595] [StockService] getHistoricalData called
+[2025-08-04T22:36:56.651727300] [StockService] fetchStockBySymbol called for symbol: ADANIPORTS
+[2025-08-04T22:37:39.206107400] [StockService] queryStockDataWithValidation called for symbol: ADANIPORTS
+[2025-08-04T22:44:37.094981500] [VolumeAnalysisService] calculateDeliverableVolumePercentage called for: ADANIPORTS
+[2025-08-04T22:49:12.104608300] [StockService] getHistoricalData called
+[2025-08-04T22:49:43.054311700] [StockService] fetchStockBySymbol called for symbol: JSWSTEEL
+[2025-08-05T04:45:15.681706900] [VolumeAnalysisService] calculateVWAP called for: ADANIPORTS
+[2025-08-05T04:47:59.291669700] [VolumeAnalysisService] calculateVWAP called for: ADANIPORTS
+[2025-08-05T04:48:26.355103300] [VolumeAnalysisService] calculateDailyTurnover called for: INFRATEL
+[2025-08-05T04:48:49.069588200] [VolumeAnalysisService] analyzeVolumeTrends called for: JSWSTEEL
+[2025-08-05T04:49:12.068547100] [VolumeAnalysisService] calculateDeliverableVolumePercentage called for: HCLTECH
+[2025-08-05T05:07:59.423216900] [VolumeAnalysisService] analyzeVolumeTrends called for: JSWSTEEL
+[2025-08-05T05:08:19.156601600] [VolumeAnalysisService] calculateVWAP called for: JSWSTEEL
+[2025-08-05T05:10:14.097466200] [VolumeAnalysisService] calculateVWAP called for: JSWSTEEL
+[2025-08-05T05:10:34.127623400] [VolumeAnalysisService] calculateDailyTurnover called for: JSWSTEEL
+[2025-08-05T05:11:05.970954100] [VolumeAnalysisService] analyzeVolumeTrends called for: JSWSTEEL
+[2025-08-05T05:11:15.705272700] [VolumeAnalysisService] calculateDeliverableVolumePercentage called for: JSWSTEEL
+[2025-08-05T05:14:20.359382100] [VolumeAnalysisService] calculateDailyTurnover called for: JSWSTEEL
+[2025-08-05T05:15:39.285494800] [VolumeAnalysisService] calculateDailyTurnover called for: JSWSTEEL
+[2025-08-05T05:15:48.258544900] [VolumeAnalysisService] analyzeVolumeTrends called for: JSWSTEEL
+[2025-08-05T05:15:53.378430200] [VolumeAnalysisService] calculateDeliverableVolumePercentage called for: JSWSTEEL
+[2025-08-05T05:19:08.563107600] [VolumeAnalysisService] calculateDailyTurnover called for: JSWSTEEL
+[2025-08-05T05:22:26.489795300] [VolumeAnalysisService] calculateDailyTurnover called for: JSWSTEEL
+[2025-08-05T05:26:21.351614600] [VolumeAnalysisService] calculateVWAP called for: JSWSTEEL
+[2025-08-05T05:26:26.934423500] [VolumeAnalysisService] calculateDailyTurnover called for: JSWSTEEL
+[2025-08-05T05:26:33.733210] [VolumeAnalysisService] analyzeVolumeTrends called for: JSWSTEEL
+[2025-08-05T05:26:44.501037600] [VolumeAnalysisService] calculateDeliverableVolumePercentage called for: HCL
+[2025-08-05T05:26:57.073557200] [VolumeAnalysisService] calculateDeliverableVolumePercentage called for: JSWSTEEL
+[2025-08-05T05:27:10.780303400] [VolumeAnalysisService] calculateDeliverableVolumePercentage called for: JSW STEEL
+[2025-08-05T05:27:47.168736200] [VolumeAnalysisService] calculateDeliverableVolumePercentage called for: ADANIPORTS
+[2025-08-05T05:29:13.165557900] [VolumeAnalysisService] calculateDeliverableVolumePercentage called for: HCT TECH
+[2025-08-05T05:31:06.774685700] [VolumeAnalysisService] calculateVWAP called for: JSWSTEEL
+[2025-08-05T05:31:17.041273600] [VolumeAnalysisService] calculateDailyTurnover called for: ADANIPORTS
+[2025-08-05T05:31:30.506250100] [VolumeAnalysisService] analyzeVolumeTrends called for: INFRATEL
+[2025-08-05T05:31:43.611296500] [VolumeAnalysisService] calculateDeliverableVolumePercentage called for: HCL TECH
+[2025-08-05T05:32:11.569541600] [PriceAnalysisService] calculateDailyVolatility called for JSWSTEEL
+[2025-08-05T05:34:45.362330700] [PriceAnalysisService] calculateDailyVolatility called for JSWSTEEL
+[2025-08-05T05:39:22.624593300] [PriceAnalysisService] calculateDailyVolatility called for JSWSTEEL
+[2025-08-05T05:41:44.162364400] [VolumeAnalysisService] calculateVWAP called for: JSWSTEEL
+[2025-08-05T05:41:49.378059400] [VolumeAnalysisService] calculateDailyTurnover called for: JSWSTEEL
+[2025-08-05T05:42:03.081707500] [VolumeAnalysisService] analyzeVolumeTrends called for: JSWSTEEL
+[2025-08-05T05:42:12.049142800] [VolumeAnalysisService] calculateDeliverableVolumePercentage called for: JSW STEEL
+[2025-08-05T05:42:33.084164] [PriceAnalysisService] getMovingAverages called for JSWSTEEL
+[2025-08-05T05:45:34.044907600] [PriceAnalysisService] calculateDailyVolatility called for JSWSTEEL
+[2025-08-05T05:45:43.990289] [PriceAnalysisService] calculateDailyPriceChange called for JSWSTEEL
+[2025-08-05T05:45:58.615061700] [PriceAnalysisService] getPriceGaps called for JSWSTEEL
+[2025-08-05T05:46:16.893647700] [PriceAnalysisService] getMovingAverages called for ADANIPORTS
+[2025-08-05T05:50:46.140303900] [StockService] getHistoricalData called
+[2025-08-05T05:51:02.055476] [StockService] queryStockDataWithValidation called for symbol: JSWSTEEL
+[2025-08-05T05:51:29.826273400] [StockService] fetchStockBySymbol called for symbol: JSWSTEEL
+[2025-08-05T05:54:19.626381700] [StockService] fetchStockBySymbol called for symbol: JSWSTEEL
+[2025-08-05T05:57:23.777821700] [StockService] getStockDataByDateRange called from 2020-03-23 to 2020-08-23
+[2025-08-05T06:05:39.449958800] [PriceAnalysisService] calculateDailyVolatility called for JSWSTEEL
+[2025-08-05T06:05:46.869987200] [PriceAnalysisService] calculateDailyPriceChange called for JSWSTEEL
+[2025-08-05T06:05:55.480969800] [PriceAnalysisService] getPriceGaps called for JSWSTEEL
+[2025-08-05T06:06:01.205918800] [PriceAnalysisService] getMovingAverages called for JSWSTEEL
+[2025-08-05T06:08:00.373459100] [VolumeAnalysisService] calculateVWAP called for: JSWSTEEL
+[2025-08-05T06:08:04.860329900] [VolumeAnalysisService] calculateDailyTurnover called for: JSWSTEEL
+[2025-08-05T06:08:13.720605300] [VolumeAnalysisService] analyzeVolumeTrends called for: JSWSTEEL
+[2025-08-05T06:08:20.546103200] [VolumeAnalysisService] calculateDeliverableVolumePercentage called for: JSWSTEEL
+[2025-08-05T06:08:33.862079600] [VolumeAnalysisService] calculateDeliverableVolumePercentage called for: JSW STEEL
+[2025-08-05T06:08:52.944873400] [VolumeAnalysisService] analyzeVolumeTrends called for: JSWSTE
+[2025-08-05T06:11:56.551888] [StockService] getHistoricalData called
+[2025-08-05T06:12:17.631643200] [StockService] getStockDataByDateRange called from 2018-03-03 to 2020-03-03
+[2025-08-05T06:12:31.639613200] [StockService] queryStockDataWithValidation called for symbol: JSWSTEEL
+[2025-08-05T06:12:45.330197400] [StockService] fetchStockBySymbol called for symbol: HCLTECH
+[2025-08-05T09:28:15.541824600] [PriceAnalysisService] getPriceGaps called for JSWSTEEL
+[2025-08-05T09:34:26.470691100] [PriceAnalysisService] calculateDailyVolatility called for JSWSTEEL
+[2025-08-05T09:34:54.764713100] [PriceAnalysisService] calculateDailyVolatility called for JSWSTEEL
+[2025-08-05T13:40:49.627218300] [PriceAnalysisService] getPriceGaps called for JSWSTEEL
+[2025-08-05T13:41:18.187402800] [PriceAnalysisService] calculateDailyVolatility called for JSWSTEEL
+[2025-08-05T13:41:50.524372400] [PriceAnalysisService] calculateDailyPriceChange called for jswsteel

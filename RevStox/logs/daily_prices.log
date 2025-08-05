@@ -1,0 +1,12 @@
+Aug 03, 2025 5:09:34 PM com.revstox.load.DailyPriceImporter importCSV
+INFO: Inserted 3220 daily price records from ADANIPORTS.csv
+Aug 03, 2025 5:12:32 PM com.revstox.load.DailyPriceImporter importCSV
+INFO: Inserted 3100 daily price records from BAJAJ-AUTO.csv
+Aug 03, 2025 5:18:21 PM com.revstox.load.DailyPriceImporter importCSV
+INFO: Inserted   daily price records from COALINDIA.csv
+Aug 03, 2025 5:21:56 PM com.revstox.load.DailyPriceImporter importCSV
+INFO: Inserted 5198 daily price records from HCLTECH.csv
+Aug 03, 2025 5:39:08 PM com.revstox.load.DailyPriceImporter importCSV
+INFO: Inserted 1960 daily price records from INFRATEL.csv
+Aug 03, 2025 5:41:26 PM com.revstox.load.DailyPriceImporter importCSV
+INFO: Inserted 3892 daily price records from JSWSTEEL.csv

@@ -1,0 +1,12 @@
+Aug 03, 2025 5:12:31 PM com.revstox.load.StockAnalyticsImporter importAnalytics
+INFO: Inserted 3220 analytics records from ADANIPORTS.csv
+Aug 03, 2025 5:18:20 PM com.revstox.load.StockAnalyticsImporter importAnalytics
+INFO: Inserted 3100 analytics records from BAJAJ-AUTO.csv
+Aug 03, 2025 5:21:55 PM com.revstox.load.StockAnalyticsImporter importAnalytics
+INFO: Inserted 2496 analytics records from COALINDIA.csv
+Aug 03, 2025 5:39:07 PM com.revstox.load.StockAnalyticsImporter importAnalytics
+INFO: Inserted 5198 analytics records from HCLTECH.csv
+Aug 03, 2025 5:41:25 PM com.revstox.load.StockAnalyticsImporter importAnalytics
+INFO: Inserted 1960 analytics records from INFRATEL.csv
+Aug 03, 2025 5:50:53 PM com.revstox.load.StockAnalyticsImporter importAnalytics
+INFO: Inserted 3892 analytics records from JSWSTEEL.csv
