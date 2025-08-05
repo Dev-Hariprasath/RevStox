@@ -1,31 +1,18 @@
-# RevStox
-RevStox is a data engineering project designed to offer insights into historical stock market data for informed decision-making. It uses a Java backend and SQL database to build a scalable, robust, and user-friendly platform for analyzing stock attributes and trends effectively.
-Great! You're nearly done — now a **well-written `README.md`** will help your trainer understand your project quickly and show your professionalism.
-
-Below is a **complete and structured `README.md`** for your `RevStox` project. It's based on the codebase you've shared — controllers, services, importers, CLI interaction, and analysis features.
-
----
-
-### ✅ `README.md` for `RevStox` (Stock Data Analysis Project)
-
-````markdown
 # 📊 RevStox - Stock Data Analysis & Import System
 
-RevStox is a Java-based console application designed to import, analyze, and manage stock market data (daily prices, analytics, and volumes) from CSV files using a PostgreSQL (or any JDBC-compatible) database backend. It provides basic CLI interfaces for users to interact with stock data analysis tools like VWAP, volatility, price changes, moving averages, and more.
-
----
+**RevStox** is a Java-based console application designed to import, analyze, and manage historical stock market data (daily prices, analytics, and volumes) using a JDBC-compatible relational database as MySQL. 
 
 ## 🚀 Features
 
 ### 🔄 Data Import
-- Import daily stock prices from CSV
-- Import stock analytics like volatility and moving averages
-- Batch insertions with JDBC for performance
+- Import daily stock price data from CSV files
+- Import computed analytics like volatility and moving averages
+- Optimized batch insertions using JDBC
 
 ### 📈 Price Analysis
 - Daily price volatility
 - Daily price change
-- Price gaps
+- Identify price gaps between trading days
 - 7-day and 30-day moving averages (via stored procedure)
 
 ### 📊 Volume Analysis
@@ -34,77 +21,99 @@ RevStox is a Java-based console application designed to import, analyze, and man
 - Volume trend analysis
 - Deliverable volume percentage
 
-### 📁 Stock Data Queries
-- Historical data retrieval
+### 📁 Stock Data Management
+- Retrieve historical data
 - Filter data by date range
-- Symbol-based stock queries
-- Import and validate stock records
+- Fetch data by symbol
+- Validate and query imported stock data
 
 ---
 
 ## 🧱 Project Structure
 
-```plaintext
+```
 com.revstox
-├── controller          # CLI Controllers for each module
-├── load                # CSV Importers for price and analytics
-├── service             # Business logic and database operations
-├── util                # Helper classes (DB, logger, parser)
-└── Main.java           # Entry point
-````
+├── controller           # CLI controllers for user interaction
+├── load                 # CSV importers for prices and analytics
+├── service              # Business logic for analysis
+├── util                 # Utility classes (DB, Logger, Parser)
+└── Main.java            # Application entry point
+```
 
-### Key Classes:
+---
 
-| Class                    | Responsibility                               |
-| ------------------------ | -------------------------------------------- |
-| `MainController`         | Initializes DB and launches CLI              |
-| `DailyPriceImporter`     | Imports daily price CSVs                     |
-| `StockAnalyticsImporter` | Imports calculated analytics like volatility |
-| `PriceAnalysisService`   | Volatility, price changes, gaps, moving avg  |
-| `VolumeAnalysisService`  | VWAP, turnover, deliverable volume etc.      |
-| `StockService`           | Data querying and filtering                  |
-| `DatabaseManager`        | Handles DB connections                       |
-| `ParseUtils`             | Safe CSV parsing methods                     |
-| `LoggerConfig`           | Per-module logging setup                     |
+## 🔑 Key Components
+
+| Class                    | Responsibility                                   |
+|--------------------------|--------------------------------------------------|
+| `MainController`         | Initializes DB and launches CLI menu            |
+| `DailyPriceImporter`     | Imports daily prices from CSV                   |
+| `StockAnalyticsImporter` | Imports calculated volatility & moving averages |
+| `PriceAnalysisService`   | Handles price-related calculations              |
+| `VolumeAnalysisService`  | Handles volume-based calculations               |
+| `StockService`           | Provides querying and filtering                 |
+| `DatabaseManager`        | Manages DB connections                          |
+| `ParseUtils`             | Safely parses CSV fields                        |
+| `LoggerConfig`           | Logger setup for modular logging                |
 
 ---
 
 ## 🛠️ Technologies Used
 
-* Java 17+
-* JDBC (PostgreSQL or MySQL)
-* OpenCSV (for parsing `.csv` files)
-* SQL stored procedures/functions
-* Maven or Gradle (optional for dependency management)
+- Java 17+
+- JDBC (MySQL)
+- OpenCSV (CSV parsing)
+- SQL stored procedures/functions
+- Maven or Gradle (optional)
 
 ---
 
-## 📝 Prerequisites
+## 📦 Prerequisites
 
 1. **Java JDK 17+**
-2. **PostgreSQL/MySQL** with required tables:
-
-   * `daily_prices`
-   * `stock_analytics`
-   * Stored procedures: `generate_moving_avg`, `calc_volatility`
+2. **PostgreSQL/MySQL** with:
+   - Tables: `daily_prices`, `stock_analytics`
+   - Procedures:
+     - generate_moving_avg(symbol)
+     - calc_volatility(high, low, open)
 3. **OpenCSV Library**
-
-
-## 📌 Sample CSV Structure
-
-| trade\_date | symbol | ... | open | high | low  | ... | close | ... | volume  | turnover |
-| ----------- | ------ | --- | ---- | ---- | ---- | --- | ----- | --- | ------- | -------- |
-| 2023-08-01  | INFY   | ... | 1540 | 1565 | 1530 | ... | 1555  | ... | 1200000 | 18600000 |
-
-Make sure CSVs have proper headers and match column order used in importer.
-
-
-## 📁 License
-
-This project is developed for training purposes and not intended for production. Contact the author for reuse.
 
 ---
 
+## 📁 Sample CSV Format
 
-Would you like me to generate a sample `.gitignore` or `schema.sql` file as well?
-```
+Make sure your CSV data has a proper header and this column order:
+
+| trade_date | symbol | ... | open | high | low | ... | close | ... | volume | turnover |
+|------------|--------|-----|------|------|-----|-----|-------|-----|--------|----------|
+| 2023-08-01 | INFY   | ... | 1540 | 1565 | 1530| ... | 1555  | ... | 1200000| 18600000 |
+
+---
+
+## 🧪 How to Run
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/yourusername/revstox.git
+   cd revstox
+   ```
+
+2. **Compile the code**:
+
+   ```bash
+   javac -cp "lib/*" -d out src/com/revstox/Main.java
+   ```
+
+3. **Run the application**:
+
+   ```bash
+   java -cp "out:lib/*" com.revstox.Main
+   ```
+
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
